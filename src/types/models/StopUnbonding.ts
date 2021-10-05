@@ -14,9 +14,9 @@ export class StopUnbonding implements Entity {
 
     public nominator: string;
 
-    public timestamp: Date;
+    public timestamp?: Date;
 
-    public amountWithdraw: bigint;
+    public amountWithdraw?: bigint;
 
 
     async save(): Promise<void>{

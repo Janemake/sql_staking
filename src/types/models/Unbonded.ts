@@ -14,9 +14,9 @@ export class Unbonded implements Entity {
 
     public nominator: string;
 
-    public amountUnbonded: bigint;
+    public amountUnbonded?: bigint;
 
-    public timestamp: Date;
+    public timestamp?: Date;
 
 
     async save(): Promise<void>{

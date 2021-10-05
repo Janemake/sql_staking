@@ -14,9 +14,9 @@ export class Slashed implements Entity {
 
     public nominator: string;
 
-    public timestamp: Date;
+    public timestamp?: Date;
 
-    public amountSlashed: bigint;
+    public amountSlashed?: bigint;
 
 
     async save(): Promise<void>{

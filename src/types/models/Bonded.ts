@@ -14,9 +14,9 @@ export class Bonded implements Entity {
 
     public nominator: string;
 
-    public amountBonded: bigint;
+    public amountBonded?: bigint;
 
-    public timestamp: Date;
+    public timestamp?: Date;
 
 
     async save(): Promise<void>{

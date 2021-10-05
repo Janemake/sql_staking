@@ -14,9 +14,9 @@ export class Rewarded implements Entity {
 
     public nominator: string;
 
-    public timestamp: Date;
+    public timestamp?: Date;
 
-    public amountRewarded: bigint;
+    public amountRewarded?: bigint;
 
 
     async save(): Promise<void>{

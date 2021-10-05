@@ -2,35 +2,35 @@
 type Bonded @entity {
   id: ID!
   nominator: String!
-  amountBonded: BigInt!
-  timestamp: Date!
+  amountBonded: BigInt
+  timestamp: Date
 }
 
 type Unbonded @entity {
   id: ID!
   nominator: String!
-  amountUnbonded: BigInt!
-  timestamp: Date!
+  amountUnbonded: BigInt
+  timestamp: Date
 }
 
 type Rewarded @entity {
   id: ID!
   nominator: String!
-  timestamp: Date!
-  amountRewarded: BigInt!
+  timestamp: Date
+  amountRewarded: BigInt
 }
 
 type Slashed @entity {
   id: ID!
   nominator: String!
-  timestamp: Date!
-  amountSlashed: BigInt!
+  timestamp: Date
+  amountSlashed: BigInt
 }
 
 type stopUnbonding @entity {
   id: ID!
   nominator: String!
-  timestamp: Date!
-  amountWithdraw: BigInt!
+  timestamp: Date
+  amountWithdraw: BigInt
 }
 

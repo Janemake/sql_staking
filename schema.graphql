@@ -33,4 +33,3 @@ type stopUnbonding @entity {
   timestamp: Date
   amountWithdraw: BigInt
 }
-

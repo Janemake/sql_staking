@@ -9,7 +9,7 @@ network:
 dataSources:
   - name: main
     kind: substrate/Runtime
-    startBlock: 1
+    startBlock: 1440000
     mapping:
       handlers:
         - handler: handleBonded

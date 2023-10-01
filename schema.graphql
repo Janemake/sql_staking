@@ -20,12 +20,6 @@ type Rewarded @entity {
   amountRewarded: BigInt
 }
 
-type Slashed @entity {
-  id: ID!
-  nominator: String!
-  timestamp: Date
-  amountSlashed: BigInt
-}
 
 type stopUnbonding @entity {
   id: ID!
